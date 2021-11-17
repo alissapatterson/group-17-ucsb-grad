@@ -6,13 +6,13 @@ output: html_document
 ---
 
 ```{r setup, include=FALSE}
-# Alissa coding here
 knitr::opts_chunk$set(echo = TRUE)
 library(here)
 library(tidyverse)
 ```
 
 ```{r}
+# Alissa coding here
 ucsb_grad <- read_csv(here("data", "ucsb_grad_data.csv"))
 ```
 
