@@ -1,0 +1,17 @@
+---
+title: "group-17-ucsb-grad"
+author: "Alissa Patterson and Erin de Leon Sanchez"
+date: "11/16/2021"
+output: html_document
+---
+# Alissa coding here
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(here)
+library(tidyverse)
+```
+
+```{r}
+ucsb_grad <- read_csv(here("data", "ucsb_grad_data.csv"))
+```
+
